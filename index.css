@@ -3,12 +3,13 @@ body {
 }
 
 h1 {
-    color: #c33149;
+    color: #D0C5BB;
+    text-shadow: 1px 1px 2px #CD5367;
 }
 
 .navBar {
     position: absolute;
-    margin-top: -65px;
+    margin-top: -95px;
     margin-left: 20px;
     line-height: -30px;;
     z-index: 1;
@@ -18,21 +19,23 @@ h1 {
 }
 
 .phoneNumber {
+    font-family: 'Give You Glory', cursive;
     font-weight: bold;
-    margin-top: -15px;
+    margin-top: -25px;
     margin-right: 20px;
     text-align: end;
-    font-size: 20px;
-    color: #c33149;                                               
+    font-size: 22px;
+    color: #D0C5BB;                                               
 }
 
 .email {
+    font-family: 'Give You Glory', cursive;
+    font-size: 22px;
     text-align: end;
     margin-right: 20px;
     margin-right: 0 px; 
     margin-top: 0px;
-    font-weight: bold;
-    color: #c33149;
+    color: #D0C5BB;
 }
 
 .socials {
@@ -53,24 +56,30 @@ h1 {
     background-color: gold;
     position: absolute;
     margin-left: 120px;
-    margin-top: -20px;
     margin-right: 700px;
-    z-index: 2;
-    font-family: 'Cooper Hewitt', sans-serif;                                                
+    z-index: 2;                                                
 }
 
 .theLinks {
-    position: relative;
-    top: 100px;
+    position: inline-block;
+    margin-top: 45px;
     margin-right: 20px;
     background-image:url("images/ToolBox.png");
     background-size: cover;
     height: 1200px;
-    text-align:end;
+    text-align: end;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    color: #D0C5BB;
+}
+
+.theLinks p {
+    position: inline-block;
+    margin-top: -350px;
     font-family: 'Give You Glory', cursive;
-    font-size: 35px;
+    margin-right: 800px;
     font-weight: bolder;
-    color: #c33149;
+    padding: 15px;
 }
 
 .grid-container {
@@ -79,11 +88,26 @@ h1 {
     grid-gap: 20px;
     grid-template-rows: max-content;
     position: relative;
-    background-color: cornflowerblue;
     top: 10px;
     margin-left: 50px;
     margin-right: 50px;
   
+}
+ .card {
+    background-color: #D0C5BB ;
+    border: solid 2px #D0C5BB;
+    padding: 20px;
+ }
+
+ .card_img {
+    height: 400px;
+}
+
+.card .card_title {
+    background-color: #c0b6ad;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: #202020;
 }
 
 /* .backToTop {
@@ -110,14 +134,21 @@ h1 {
     top: 10px;
 } */
 
-.card {
-    border: solid 2px; black;
-}
-
 li {
     list-style: none;
-    line-height: 20px;;
+    padding: 22px;
 }
+
+button {
+    padding: 10px;
+    border: #c67381 2px solid; 
+    background-color: #CD5367;
+}
+
+.card button {
+    margin-left: 140px;
+}
+
 
 
 
